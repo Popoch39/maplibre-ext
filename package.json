@@ -20,7 +20,7 @@
   "author": "Louis Pocheron",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Popoch39/maplibre-ext"
+    "url": "git+https://github.com/Popoch39/maplibre-ext"
   },
   "license": "MIT",
   "files": [
