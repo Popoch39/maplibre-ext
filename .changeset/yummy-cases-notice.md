@@ -1,5 +1,0 @@
----
-'maplibre-ext': patch
----
-
-init

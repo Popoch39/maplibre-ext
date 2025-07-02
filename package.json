@@ -1,6 +1,6 @@
 {
   "name": "maplibre-ext",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A demo package for Total TypeScript",
   "keywords": [
     "demo",
@@ -29,6 +29,7 @@
   "type": "module",
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.2",
+    "@changesets/cli": "^2.29.5",
     "prettier": "^3.6.2",
     "tsup": "^8.5.0",
     "typescript": "^5.5.4",
@@ -42,6 +43,7 @@
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "check-exports": "attw --pack .",
-    "local-release": "npm run ci && changeset version && changeset publish"
+    "local-release": "npm run ci && changeset version && changeset publish",
+    "prepublishOnly": "npm run ci"
   }
 }
